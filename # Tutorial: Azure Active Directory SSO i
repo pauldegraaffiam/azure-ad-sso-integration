@@ -260,4 +260,16 @@ In this section, you test your Azure AD single sign-on configuration with follow
 
         Once SSO is enabled for SecZetta Collaboration, a new button on the login screen appears with the name you assigned in the SSO configuration, as shown below:
 
-        ![SSO SAML Setup13](img/ssosetup13.png)  
+        ![SSO SAML Setup13](img/ssosetup13.png)
+
+        Select the new button to test the SSO configuration and see if you can successfully login with SP initiated SSO with a user that is assigned the application in Azure AD.
+
+    2.	Identity Provider (IDP) Initiated SSO.
+
+        As Azure AD is the Identity Provider here, you can either test the SSO configuration from the application SSO configuration screen, selecting the Test button, as shown below.
+
+        ![SSO SAML Setup14](img/ssosetup14.png)
+
+        Ensure that the logged in user to the Azure Portal has indeed access to the SecZetta Collaboration application in Azure AD. 
+        Alternatively the user can login to https://myapplications.microsoft.com and select the SecZetta Collaboration application to initiate the IDP SSO login.
+
