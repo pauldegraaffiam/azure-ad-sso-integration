@@ -1,0 +1,73 @@
+# Tutorial: Azure Active Directory SSO integration with SecZetta Identity Suite 
+
+In this tutorial, you'll learn how to integrate SecZetta Identity Suite with Azure Active Directory (Azure AD). 
+When you integrate SecZetta Identity Suite with Azure AD, you can:
+
+-	Control in Azure AD who has access to the SecZetta solutions.
+-	Enable your users to be automatically signed-in to the SecZetta Identity Suite with their Azure AD accounts.
+-	Manage your accounts in one central location - the Azure portal.
+
+The SecZetta Identity Suite consists of various products. The SSO integrations discussed in this tutorial are focus on:
+
+- SecZetta Life Cycle
+- SecZetta Collaboration
+
+In general the setup is similar but there are some minor differences.
+
+## Prerequisites
+To get started, you need the following items:
+
+-	An Azure AD subscription and administrative access.
+-	SecZetta Identity Suite administrative access to configure SSO.
+-	All of your SecZetta Identity User will need an account in Azure Active Directory with exactly the same email address.
+
+## Scenario description
+In this tutorial, you configure and test Azure AD SSO in a test environment.
+
+1.	SecZetta Identity Suite supports SP and IDP initiated SSO for both the Life Cycle and Collaboration products.
+2.  SeZetta Identity Suite does not support SAML JIT (Just In Time) provisioning.
+
+## Add SecZetta from the gallery
+To configure the integration of SecZetta Identity Suite into Azure AD, you need to add SecZetta from the gallery to your list of managed SaaS apps.
+
+1.	Sign in to the Azure portal using either a work or school account, or a personal Microsoft account.
+
+2.	On the left navigation pane, select the Azure Active Directory service.
+
+3.	Navigate to Enterprise Applications and then select All Applications.
+
+4.	To add new application, select New application.
+
+5.	In the Add from the gallery section, type SecZetta in the search box.
+
+6.	Select SecZetta from results panel and then add the app. Wait a few seconds while the app is added to your tenant.
+
+## Configure and test Azure AD SSO for SecZetta Identity Suite
+
+Configure and test Azure AD SSO with SecZetta using a test user called B.Simon For SSO to work, you need to establish a relationship between an Azure AD user and the related user in SecZetta Life Cycle or Collaboration.
+To configure and test Azure AD SSO with SecZetta, perform the following steps:
+
+1.	[Configure Azure AD SSO](#Configure-Azure-AD-SSO) - to enable your users to use this feature.
+
+    a.	Create an Azure AD test user - to test Azure AD single sign-on with B.Simon.
+
+    b.	Assign the Azure AD test user - to enable B.Simon to use Azure AD single sign-on.
+
+2.	Configure SecZetta SSO - to configure the single sign-on settings on application side.
+    
+    a.	   Create SecZetta test user - to have a counterpart of P.Simon in SecZetta that is linked to the Azure AD representation of user.
+
+3.	Test SSO - to verify whether the configuration works.
+
+### Configure Azure AD SSO
+
+Follow these steps to enable Azure AD SSO in the Azure portal.
+
+1.	In the Azure portal, on the SecZetta application integration page, find the Manage section and select single sign-on.
+
+2.	On the Select a single sign-on method page, select SAML.
+
+3.	On the Set up single sign-on with SAML page, click the pencil icon for Basic SAML Configuration to edit the settings.
+
+![SSO SAML Setup](img/ssosetup1.png)
+
